@@ -1,6 +1,6 @@
 #root {
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -10,9 +10,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -21,6 +23,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -45,7 +48,9 @@
   flex-direction: row;
   justify-content: space-around;
 
-  width: 75%; /* Para ocupar 3/4 da largura*/
+  width: 75%;
+  /* Para ocupar 3/4 da largura*/
 
-  margin: 2% auto; /* Para centralizar*/
+  margin: 2% auto;
+  /* Para centralizar*/
 }

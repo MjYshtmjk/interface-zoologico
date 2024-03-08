@@ -3,7 +3,7 @@ import CardAnimal from '../../components/CardAnimal/CardAnimal';
 import './Animais.css'
 
 function Animais() {
-    return(
+    return (
         <>
             <Navegacao />
             <CardAnimal />

@@ -10,7 +10,7 @@ function Welcome() {
                 <p>Aqui você pode conhecer melhor nossa estrutura e nossas atrações</p>
             </div>
 
-            <img src={animaiscover} alt="apresentacao-zoo" className='welcome-image'/>
+            <img src={animaiscover} alt="apresentacao-zoo" className='welcome-image' />
         </div>
     );
 }
