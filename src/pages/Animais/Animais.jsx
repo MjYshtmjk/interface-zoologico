@@ -1,4 +1,4 @@
-import Navegacao from '../../components/Navegacao/Navegacao';
+import Navegacao from '../../components/Navegar/Navegar';
 import CardAnimal from '../../components/CardAnimal/CardAnimal';
 import './Animais.css'
 

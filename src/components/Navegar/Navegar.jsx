@@ -1,4 +1,4 @@
-import './Navegacao.css'
+import './Navegar.css'
 import { Link } from 'react-router-dom';
 
 function Navegacao() {

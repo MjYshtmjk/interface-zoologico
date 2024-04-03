@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -30,6 +31,8 @@ body {
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Caesar Dressing", system-ui;
+  background-color: #F1EFB8;
 }
 
 h1 {

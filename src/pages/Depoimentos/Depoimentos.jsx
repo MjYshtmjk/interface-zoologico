@@ -1,4 +1,4 @@
-import Navegacao from '../../components/Navegacao/Navegacao';
+import Navegacao from '../../components/Navegar/Navegar';
 import './Depoimentos.css'
 
 function Depoimentos() {
