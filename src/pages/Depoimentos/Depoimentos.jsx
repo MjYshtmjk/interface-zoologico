@@ -1,11 +1,12 @@
 import Navegacao from '../../components/Navegar/Navegar';
+import ListaAnimais from '../../components/Tabela/ListaAnimais';
 import './Depoimentos.css'
 
 function Depoimentos() {
     return (
         <>
-            <Navegacao />
-            <p>Nada aqui ainda!</p>
+         <Navegacao/>
+         <ListaAnimais/>
         </>
     );
 }

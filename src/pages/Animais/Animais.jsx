@@ -2,30 +2,16 @@ import './Animais.css'
 import React, { useEffect, useState } from 'react';
 import Navegacao from '../../components/Navegar/Navegar';
 import CardAnimal from '../../components/CardAnimal/CardAnimal';
+import AnimalRequests from '../../fetch/AnimalRequests';
 
 function Animais() {
 
     const[animais, setAnimais] = useState(null);
 
-    useEffect (() =>{
-
+    useEffect(() => {
+        // função para fazer o fetch (busca) das informações na API
         const fetchData = async () => {
-
-            try {
-                const response = await fetch('http://localhost:3000/listar-aves');
-
-                if(!response.ok) {
-
-                    throw new Error('Erro ao buscar servidor');
-                }
-
-            const listaAnimais = await response.json();
-
-            setAnimais(listaAnimais)
-            } catch (error) {
-                
-                console.error('Error: ', error);
-            }
+            setAnimais(await AnimalRequests.listarAnimais());
         }
         fetchData();
     }, []) 

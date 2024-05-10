@@ -9,7 +9,7 @@ function CardAnimal({ animal }) {
 
     return (
         <>
-            <div className="card-animal">
+            <div className="card-animais">
                 <img src={imgNotFound} alt="Imagem não encontrada" onClick={exibeID}/>
                 <p><b>Nome:</b> {animal.nomeanimal}</p>
                 <p><b>Gênero:</b> {animal.generoanimal}</p>
